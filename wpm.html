@@ -3,18 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Typing test</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-  <input type="radio" name="text" data-text="wilde" checked>Oscar Wilde</input>
-  <input type="radio" name="text" data-text="hipster">Hipster</input>
+  <div class="container">
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <a class="brand" href="#">WPM calculator</a>
+      </div>
+    </div>
   
-  <br>
+    <input type="radio" name="text" data-text="wilde" checked>Oscar Wilde</input>
+    <input type="radio" name="text" data-text="hipster">Hipster</input>
   
-  <div class="target">Ah, that is in the family, dear, that is in the family. And there was also, I remember, a clergyman who wanted to be a lunatic, or a lunatic who wanted to be a clergyman, I forget which, but I know the Court of Chancery investigated the matter, and decided that he was quite sane. And I saw him afterwards at poor Lord Plumstead's with straws in his hair, or something very odd about him. I can't recall what. I often regret, Lady Caroline, that dear Lady Cecilia never lived to see her son get the title.</div>
+    <div class="target">Ah, that is in the family, dear, that is in the family. And there was also, I remember, a clergyman who wanted to be a lunatic, or a lunatic who wanted to be a clergyman, I forget which, but I know the Court of Chancery investigated the matter, and decided that he was quite sane. And I saw him afterwards at poor Lord Plumstead's with straws in his hair, or something very odd about him. I can't recall what. I often regret, Lady Caroline, that dear Lady Cecilia never lived to see her son get the title.</div>
   
-  <textarea></textarea>
+    <textarea></textarea>
   
-  <button>Go!</button>
+    <button class="btn btn-primary">Go!</button>
+  </div>
   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.6.2/coffee-script.min.js"></script>
